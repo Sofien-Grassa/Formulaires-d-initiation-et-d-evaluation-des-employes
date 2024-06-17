@@ -1,0 +1,14 @@
+.toast{
+    display: none;
+    min-width: 60vw;
+  }
+  .toast.show {
+      display: block;
+      opacity: 1;
+      position: absolute;
+      z-index: 99999999;
+      margin: 90px;
+      right: 0;
+      top: 4.5rem;
+  }
+  

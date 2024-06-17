@@ -1,0 +1,35 @@
+RewriteEngine on
+Options +FollowSymlinks
+RewriteBase /Personnel/
+
+ErrorDocument 404 /Personnel/404.php
+
+RewriteRule ^Home$ index.php
+RewriteRule ^RapportMensuel$ Rapport_mensuel.php
+RewriteRule ^Effectif$ Effectif.php
+RewriteRule ^Effectif_Add$ Effectif_Add.php
+RewriteRule ^Partants$ Partants.php
+RewriteRule ^org_chart$ org_chart.php
+RewriteRule ^setting_org_chart$ setting_org_chart.php
+RewriteRule ^Change_pointage$ Change_pointage.php
+RewriteRule ^Pointage$ Pointage.php
+RewriteRule ^ATMS$ ATMS.php
+RewriteRule ^HATMS$ HATMS.php
+RewriteRule ^NoteMensuelle$ NoteMensuelle.php
+RewriteRule ^CA$ CA.php
+RewriteRule ^GContrats$ Gestion_Contrats.php
+RewriteRule ^EtatABSANNEE$ EtatABSANNEE.php
+RewriteRule ^ABSinjustifier$ ABSinjustifier.php
+RewriteRule ^Function_qualification$ Function_qualification.php
+RewriteRule ^ATT_TRAVAIL$ ATT_TRAVAIL.php
+RewriteRule ^Profile$ Profile.php
+RewriteRule ^57ans$ 57ans.php
+RewriteRule ^Avancementechlon$ Avancement.php
+RewriteRule ^Affectation_Provisoire$ Affectation_Provisoire.php
+RewriteRule ^Historique_Affectation$ Historique_Affectation.php
+RewriteRule ^Promotion$ Promotion.php
+RewriteRule ^Mutations$ Mutations.php
+RewriteRule ^Historique_Avancement$ Historique_Avancement.php
+RewriteRule ^Certificat_Apptitude$ Certificat.php
+RewriteRule ^Effectif_cnss$ Effectif_cnss.php
+
